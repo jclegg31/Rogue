@@ -1,0 +1,140 @@
+/* BASE STYLES */
+
+h1{
+    text-transform: uppercase;
+       
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* GRID */
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto; /*0 margin top and bottom so sections stack flush on top of one another. Auto adjust left/right. */
+    overflow: auto; /*clears your floats*/
+
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+
+}
+
+.third-width{
+    width: 400px; 
+    float: left;
+
+}
+
+
+/* HEADER */
+
+header h1 span{
+    color: green;   
+    
+}
+
+nav {
+    float: right; 
+    padding: 15px 0;
+}
+
+nav ul li{
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: green;
+    font-size: small;
+    padding-left: 20px; 
+    
+}
+
+/* BODY */
+
+#headphoto img#greenbeans-img{
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    
+    
+}
+
+#welcome h2{
+    text-transform: uppercase;
+    color: green;
+    font-size: medium;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+#welcome p{
+    line-height: 25px;
+    letter-spacing: 1px;
+    
+}
+
+#welcome .full-width{
+    margin-bottom: 15px;
+}
+
+#whatwedo .full-width{
+    border-top: 1px solid lightgray;    
+    margin-top: 20px auto;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px auto;
+    
+}
+
+#whatwedo h3{
+    text-transform: uppercase;
+    font-size: medium;
+    font-size: small;
+    margin: 25px 0;
+    letter-spacing: 1px;
+}
+
+#whatwedo .specials p{
+    color: green;
+    line-height: 20px;
+    box-sizing: border-box;
+    
+    
+}
+
+#whatwedo #middle-column{
+    border-left: 1px solid lightgray; 
+    border-right: 1px solid lightgray; 
+    padding: 0 20px;
+    box-sizing: border-box;
+    
+}
+
+#whatwedo #contact{
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+footer .full-width span{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Satisfy', cursive;
+    color: green;
+    text-transform: lowercase;
+
+}
